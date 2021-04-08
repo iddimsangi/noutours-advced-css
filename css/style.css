@@ -12,13 +12,16 @@ Dark green: #28b485
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 10px;
+}
 body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.7;
     color: #777;
-    padding: 30px;
+    padding: 3rem;
 }
 .header{
     height: 95vh;
@@ -31,12 +34,12 @@ body{
 }
 .logo-container {
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
 }
 
 .logo {
-    height: 35px;
+    height: 3.5rem;
 }
 .logo:hover{
       animation:moveInRight 2s ease-out ;
@@ -54,13 +57,13 @@ body{
     text-transform: uppercase;
     color: #fff;
     backface-visibility: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .head-primary-main {
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 30px;
+    letter-spacing: 3rem;
     display: block;
     animation-name: moveInLeft;
     animation-duration:5s;
@@ -71,9 +74,9 @@ body{
 
 .head-primary-sub {
     display: block;
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 700;
-    letter-spacing:10px;
+    letter-spacing:1rem;
     animation:moveInRight 1s ease-out ;
 /*    animation-delay: 3s;*/
     /* animation-name:moveInRight;
@@ -84,10 +87,10 @@ body{
 @keyframes moveInLeft{
   from{
         opacity:0;
-        transform: translateX(-100px);
+        transform: translateX(-10rem);
     }
     80%{
-        transform: translateX(20px);
+        transform: translateX(2rem);
     }
     to {
         opacity: 1;
@@ -101,11 +104,11 @@ body{
           transform: translateX(0);
       }
       80%{
-         transform: translateX(-2px);
+         transform: translateX(-.2rem);
       }
       to {
           opacity: 1;
-          transform: translate(-100px);
+          transform: translate(-10rem);
       }
   }
 .btn:link,
@@ -113,21 +116,21 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     border: 1px solid #eee;
-    padding: 15px 40px;
-    border-radius:200px;
-    font-size: 22px;
+    padding: 1.5rem 4rem;
+    border-radius:20rem;
+    font-size: 2.2rem;
     transition: all .1s;
     position: relative;
     
 }
 .btn:hover{
 /*    background-color: antiquewhite;*/
-    transform: translateY(-3px);
-    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.31);
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 1.2rem rgba(0, 0, 0, 0.31);
 }
 .btn:active{
     transform: translateY(-1px);
-     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.04);
+     box-shadow: 0 .5rem .6rem rgba(0, 0, 0, 0.04);
 }
 .btn-white {
     color: #ccc;
@@ -139,7 +142,7 @@ body{
     display: inline-block;
     height: 100%;
     width: 100%;
-    border-radius: 200px;
+    border-radius: 20rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -157,7 +160,7 @@ body{
 @keyframes moveInBottom {
     0%{
         opacity: 0;
-        transform: translateY(100px);
+        transform: translateY(10rem);
     }
     100%{
         opacity: 1;
